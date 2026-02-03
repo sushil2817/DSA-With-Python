@@ -14,7 +14,21 @@ print('\n')
 
 print(val.typecode)
 
-val.reverse()
-for i in val:
-    print(i,end=',')
+# val.reverse()
+# for i in val:
+#     print(i,end=',')
 
+val.insert(1,50)
+val.append(100)
+val[2] = 200
+
+copyArray = array(val.typecode, (x*3 for x in val))
+
+
+for i in copyArray:
+    print (i,end=",")
+print('\n')
+copyArray.pop()
+
+for i in copyArray:
+    print (i,end=",")
