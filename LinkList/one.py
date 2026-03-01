@@ -3,7 +3,6 @@ class Node:
         self.data = value
         self.next = None
         self.prev = None
-
 class DoublyLL:
     def __init__(self):
         self.head = None
@@ -21,6 +20,5 @@ class DoublyLL:
         t.next = temp
         temp.prev = t
     
-
     def printDLL(self):
         while
