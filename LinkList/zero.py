@@ -7,5 +7,6 @@ class SinglyLinkedList:
     def __init__(self,head=None):
         self.head = head
 
+    
     def insertAtEnd(self):
         
