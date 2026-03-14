@@ -14,11 +14,17 @@ class Queue:
         return self.items.pop(0)
 
 q = Queue()
+
 q.insert(10)
+
 q.insert(20)
+
 q.insert(30)
 
 print(q.delete())
+
 print(q.delete())
+
 print(q.delete())
+
 q.delete()
